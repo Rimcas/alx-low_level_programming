@@ -17,7 +17,7 @@ _putchar( );
 }
 _putchar(92);
 if (i < (n - 1))
-_putchar(n);
+_putchar('\n');
 }
 _putchar('\n');
 }
