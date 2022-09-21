@@ -20,5 +20,5 @@ temp = *(a + j);
 *(a + (j - 1)) = temp;
 }
 }
-_putchar('\n');
+_printf('\n');
 }
