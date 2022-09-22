@@ -47,7 +47,7 @@ else
 dr2 = 0;
 bg--, size_r--;
 }
-if (*(r) == '\0')
+if (*(r) == '0')
 return (r + 1);
 else
 return (r);
