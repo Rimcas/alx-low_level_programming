@@ -12,7 +12,7 @@ unsigned int i;
 
 for (i = 0; i < n; i++)
 *(s + i) =  b;
-_putchar(/n);
+_putchar('\n');
 
 return (s);
 }
