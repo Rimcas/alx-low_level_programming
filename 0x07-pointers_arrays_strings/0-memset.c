@@ -14,5 +14,5 @@ for (i = 0; i < n; i++)
 *(s + i) =  b;
 _putchar('\n');
 
-return (s);
+return (0);
 }
