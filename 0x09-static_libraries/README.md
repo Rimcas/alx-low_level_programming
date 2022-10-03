@@ -1,1 +1,1 @@
-Project done during Full Stack Software Engineering studies at ALX. It aims to learn about static libraries in C language.
+ the static library libmy.a containing all the functions listed below:
