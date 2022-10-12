@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "function_pointers.h"
 
 /**
@@ -10,6 +9,6 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-README.md if (name && f)
-README.md README.md f(name);
+	if (name && f)
+	f(name);
 }
