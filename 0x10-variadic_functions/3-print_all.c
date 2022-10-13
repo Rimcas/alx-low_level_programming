@@ -87,7 +87,7 @@ printf("%s%f", separator, va_arg(args, double));
   */
 void print_a_char_ptr(char *separator, va_list args)
 {
-char arg = va_arg(args, char);
+char arg = va_arg(args, char );
 
 if (arg == NULL)
 {
