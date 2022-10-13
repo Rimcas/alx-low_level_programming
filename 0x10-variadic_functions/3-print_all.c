@@ -9,10 +9,11 @@
   * Return: Nothing
   */
 void print_all(const char * const format, ...)
+
 {
 va_list args;
 f_dt form_types[] = {
-{ "c", print_a_char },
+{"c", print_a_char },
 { "i", print_a_integer },
 { "f", print_a_float },
 { "s", print_a_char_ptr }
@@ -87,7 +88,7 @@ printf("%s%f", separator, va_arg(args, double));
   */
 void print_a_char_ptr(char *separator, va_list args)
 {
-char arg = va_arg(args, char );
+char arg = va_arg(args, char);
 
 if (arg == NULL)
 {
