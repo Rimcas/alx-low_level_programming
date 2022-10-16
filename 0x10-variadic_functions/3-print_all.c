@@ -1,8 +1,8 @@
 #include "variadic_functions.h"
 
 /**
- * print_all - function that prints any argument.
- * @format: list of types of arguments passed to the function
+ * print_all - function that prints all arguments
+ * @format: list of types of argument passed to function
  * Return: nothing
  */
 
