@@ -1,5 +1,11 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+/**
+ * main - Entry point
+ *
+ * Description: takes an integer
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
