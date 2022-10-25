@@ -7,10 +7,10 @@
  *
  * Return: no return.
  */
-void free_listp2(listint_t **head)
+void free_listp2(listp_t **head)
 {
-listint_t *temp;
-listint_t *curr;
+listp_t *temp;
+listp_t *curr;
 
 if (head != NULL)
 {
