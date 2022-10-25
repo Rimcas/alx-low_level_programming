@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stddef.h>
 
 /**
  * free_listp2 - frees a linked list
@@ -33,13 +32,13 @@ free(temp);
 size_t free_listint_safe(listint_t **h)
 {
 size_t nnodes = 0;
-listint_t *hptr, *new, *add;
+listp_t *hptr, *new, *add;
 listint_t *curr;
 
 hptr = NULL;
 while (*h != NULL)
 {
-new = malloc(sizeof(listint_t));
+new = malloc(sizeof(listp_t));
 
 if (new == NULL)
 exit(98);
