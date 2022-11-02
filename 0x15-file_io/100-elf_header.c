@@ -88,9 +88,7 @@ void print_type(char *ptr)
 void print_osabi(char *ptr)
 {
 	char osabi = ptr[7];
-
 	printf("  OS/ABI:                            ");
-
 	if (osabi == 0)
 		printf("UNIX - System V\n");
 	else if (osabi == 2)
